@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enhanced Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br>
+    <div class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="architecture">Architecture</button>
+        <button data-filter="people">People</button>
+    </div>
+
+    <div class="gallery">
+        <!-- Nature Images -->
+        <div class="gallery-item nature"><img src="https://images.pexels.com/photos/34950/pexels-photo.jpg" alt="Nature Image 1"></div>
+        <div class="gallery-item nature"><img src="https://images.pexels.com/photos/158607/cairn-fog-mystical-background-158607.jpeg" alt="Nature Image 2"></div>
+        <div class="gallery-item nature"><img src="https://images.pexels.com/photos/688835/pexels-photo-688835.jpeg" alt="Nature Image 3"></div>
+        <div class="gallery-item nature"><img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg" alt="Nature Image 4"></div>
+        <div class="gallery-item nature"><img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg" alt="Nature Image 5"></div>
+        <div class="gallery-item nature"><img src="https://images.pexels.com/photos/417063/pexels-photo-417063.jpeg" alt="Nature Image 6"></div>
+    
+        <div class="gallery-item nature"><img src="https://images.pexels.com/photos/15286/pexels-photo.jpg" alt="Nature Image 8"></div>
+       
+        <div class="gallery-item nature"><img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg" alt="Nature Image 10"></div>
+        
+        <!-- Architecture Images -->
+        <div class="gallery-item architecture"><img src="https://images.pexels.com/photos/236799/pexels-photo-236799.jpeg" alt="Architecture Image 1"></div>
+        <div class="gallery-item architecture"><img src="https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg" alt="Architecture Image 2"></div>
+        <div class="gallery-item architecture"><img src="https://images.pexels.com/photos/417136/pexels-photo-417136.jpeg" alt="Architecture Image 3"></div>
+
+        <div class="gallery-item architecture"><img src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg" alt="Architecture Image 5"></div>
+        <div class="gallery-item architecture"><img src="https://images.pexels.com/photos/417139/pexels-photo-417139.jpeg" alt="Architecture Image 6"></div>
+        
+        
+        <div class="gallery-item architecture"><img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg" alt="Architecture Image 9"></div>
+       
+        <!-- People Images -->
+        <div class="gallery-item people"><img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="People Image 1"></div>
+        <div class="gallery-item people"><img src="https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg" alt="People Image 2"></div>
+        <div class="gallery-item people"><img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="People Image 3"></div>
+        
+        
+        
+        <div class="gallery-item people"><img src="https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg" alt="People Image 7"></div>
+        <div class="gallery-item people"><img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg" alt="People Image 8"></div>
+        <div class="gallery-item people"><img src="https://images.pexels.com/photos/417136/pexels-photo-417136.jpeg" alt="People Image 9"></div>
+        <div class="gallery-item people"><img src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg" alt="People Image 10"></div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <span class="lightbox-arrow left-arrow">&#10094;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="lightbox-arrow right-arrow">&#10095;</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
